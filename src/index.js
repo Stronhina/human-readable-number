@@ -1,4 +1,5 @@
 module.exports = function toReadable (number) {
+    //this solve for number less than 1000
     let numberWords;
     let ones = ["",
                 " one",
